@@ -33,7 +33,7 @@ body {
   opacity: 0.9;
 }
 
-/* BUTTONS */
+/* NAV BUTTONS */
 .nav-buttons {
   margin-top: 30px;
 }
@@ -55,6 +55,22 @@ body {
   background: #cce7ff;
 }
 
+/* RESUME BUTTON */
+.resume-btn {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resume-btn:hover {
+  background: #ffd633;
+}
+
 /* CONTENT */
 main {
   max-width: 900px;
@@ -73,10 +89,6 @@ main {
   animation: fade 0.4s ease-in-out;
 }
 
-.content h2 {
-  margin-top: 0;
-}
-
 .skills span {
   display: inline-block;
   background: #e3f2fd;
@@ -90,10 +102,24 @@ main {
   margin-bottom: 15px;
 }
 
-a {
-  color: #203a43;
+.card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0f2027;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.college-img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 footer {
