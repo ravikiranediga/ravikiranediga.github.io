@@ -7,106 +7,102 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="profile.jpg" alt="E Ravi Kiran">
     <h1>E Ravi Kiran</h1>
     <p>Machine Learning Enthusiast | AIML Engineer | Data Science</p>
-  </header>
 
-  <!-- ABOUT -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I build data-driven ML models and love solving real-world problems.
-      I enjoy Python, data science, and continuous learning.
-    </p>
-    <p><strong>Location:</strong> Puttur, India</p>
-    <p><strong>Email:</strong> sreenivasul@mail.com</p>
-  </section>
-
-  <!-- SKILLS -->
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>Python</span>
-      <span>Machine Learning</span>
-      <span>Data Science</span>
-      <span>Pandas</span>
-      <span>NumPy</span>
-      <span>Scikit-learn</span>
-      <span>SQL</span>
-      <span>AWS</span>
-      <span>EDA</span>
-      <span>GenAI</span>
-      <span>GitHub</span>
-      <span>Excel</span>
+    <!-- NAV BUTTONS -->
+    <div class="nav-buttons">
+      <button onclick="openSection('about')">About</button>
+      <button onclick="openSection('skills')">Skills</button>
+      <button onclick="openSection('projects')">Projects</button>
+      <button onclick="openSection('certifications')">Certifications</button>
+      <button onclick="openSection('contact')">Contact</button>
     </div>
   </section>
 
-  <!-- EDUCATION -->
-  <section>
-    <h2>Education</h2>
-    <p><strong>B.Tech – Computer Science (AI)</strong></p>
-    <p>2023</p>
-  </section>
+  <!-- CONTENT -->
+  <main>
 
-  <!-- PROJECTS -->
-  <section>
-    <h2>Projects</h2>
+    <section id="about" class="content">
+      <h2>About Me</h2>
+      <p>
+        I build data-driven ML models and love solving real-world problems.
+        I enjoy Python, data science, and continuous learning.
+      </p>
+      <p><strong>Location:</strong> Puttur, India</p>
+      <p><strong>Email:</strong> sreenivasul@mail.com</p>
+    </section>
 
-    <div class="project">
-      <h3>Credit Scoring Model</h3>
-      <p>Machine learning model to predict customer credit risk.</p>
-    </div>
+    <section id="skills" class="content">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Data Science</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>SQL</span>
+        <span>AWS</span>
+        <span>EDA</span>
+        <span>GenAI</span>
+        <span>GitHub</span>
+        <span>Excel</span>
+      </div>
+    </section>
 
-    <div class="project">
-      <h3>Speech Emotion Recognition</h3>
-      <p>ML project to identify emotions from speech audio.</p>
-    </div>
+    <section id="projects" class="content">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Credit Scoring Model</h3>
+        <p>Predicts customer credit risk using ML.</p>
+      </div>
+      <div class="card">
+        <h3>Speech Emotion Recognition</h3>
+        <p>Emotion detection from speech audio.</p>
+      </div>
+      <div class="card">
+        <h3>AI Resume Analyzer</h3>
+        <p>AI-powered resume screening system.</p>
+      </div>
+      <div class="card">
+        <h3>Agent Orchestration (LangGraph)</h3>
+        <p>Multi-agent orchestration using LangGraph.</p>
+      </div>
+      <div class="card">
+        <h3>MySurveyApp</h3>
+        <p>Survey application for data collection.</p>
+      </div>
+    </section>
 
-    <div class="project">
-      <h3>AI Resume Analyzer</h3>
-      <p>AI-powered resume screening and analysis system.</p>
-    </div>
+    <section id="certifications" class="content">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Data Analytics – Novitech (2025)</li>
+        <li>Building Data Analyst AI Agent – Analytics Vidhya (2026)</li>
+        <li>Data Analysis Bootcamp – Udemy (2026)</li>
+        <li>Data Science Job Simulation – Forage (2025)</li>
+        <li>AI For All – Intel (2025)</li>
+        <li>AI-ML Engineer – Reliance Foundation</li>
+      </ul>
+    </section>
 
-    <div class="project">
-      <h3>Agent Orchestration (LangGraph)</h3>
-      <p>Multi-agent orchestration system using LangGraph.</p>
-    </div>
+    <section id="contact" class="content">
+      <h2>Contact</h2>
+      <p>
+        <a href="https://github.com/ravikiranediga" target="_blank">GitHub</a>
+      </p>
+    </section>
 
-    <div class="project">
-      <h3>MySurveyApp</h3>
-      <p>Survey application for data collection and analysis.</p>
-    </div>
-  </section>
+  </main>
 
-  <!-- CERTIFICATIONS -->
-  <section>
-    <h2>Certifications</h2>
-    <ul>
-      <li>Data Analytics – Novitech (2025)</li>
-      <li>Building Data Analyst AI Agent – Analytics Vidhya (2026)</li>
-      <li>Data Analysis Bootcamp – Udemy (2026)</li>
-      <li>Data Science Job Simulation – Forage (2025)</li>
-      <li>GenAI Buildation – NextWave</li>
-      <li>AI For All – Intel (2025)</li>
-      <li>AI-ML Engineer – Reliance Foundation</li>
-      <li>Python for Beginners – Simplilearn</li>
-    </ul>
-  </section>
-
-  <!-- LINKS -->
-  <section>
-    <h2>Links</h2>
-    <p>
-      <a href="https://github.com/ravikiranediga" target="_blank">GitHub</a>
-    </p>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
-    <p>© 2026 E Ravi Kiran</p>
+    © 2026 E Ravi Kiran
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
