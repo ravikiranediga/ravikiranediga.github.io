@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "description": "A modern, responsive portfolio website built with React featuring dark/light mode, smooth animations, typing effects, project modals, contact form with validation, and professional glassmorphism design.",
+      "techStack": ["React", "JavaScript", "CSS3", "Vite", "React Icons"],
+      "category": "frontend",
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/ravikiran-portfolio",
+      "liveDemo": null
+    },
+    {
+      "id": 2,
+      "title": "Agent Orchestration LangGraph",
+      "description": "An intelligent agent orchestration system using LangGraph framework for building complex AI workflows. Implements multi-agent coordination, task planning, and dynamic agent communication.",
+      "techStack": ["Python", "LangGraph", "LangChain", "OpenAI", "Agentic AI"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/agent-orchestration-langgraph",
+      "liveDemo": "https://github.com/ravikiranediga/agent-orchestration-langgraph"
+    },
+    {
+      "id": 3,
+      "title": "Credit Risk & Fraud Detection with XAI",
+      "description": "A comprehensive machine learning solution for credit risk assessment and fraud detection with Explainable AI (XAI). Uses SHAP and LIME for model interpretability, featuring real-time risk scoring, anomaly detection, and detailed model explanations.",
+      "techStack": ["Python", "Machine Learning", "XAI", "SHAP", "LIME", "Scikit-learn", "Pandas", "NumPy"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/credit-risk-fraud-detection-xai",
+      "liveDemo": "https://github.com/ravikiranediga/credit-risk-fraud-detection-xai"
+    },
+    {
+      "id": 4,
+      "title": "Handwritten Character Recognition",
+      "description": "A deep learning-based system for recognizing handwritten characters using Convolutional Neural Networks (CNN). Trained on standard datasets with high accuracy.",
+      "techStack": ["Python", "Deep Learning", "CNN", "TensorFlow", "Keras", "OpenCV"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/CodeAlpha_Tasks/tree/main/CodeAlpha_Handwritten_Character_Recognition",
+      "liveDemo": "https://github.com/ravikiranediga/CodeAlpha_Tasks/tree/main/CodeAlpha_Handwritten_Character_Recognition"
+    },
+    {
+      "id": 5,
+      "title": "AI Based Resume Analyzer",
+      "description": "An intelligent ATS (Applicant Tracking System) resume analyzer that parses resumes, extracts skills, and calculates compatibility scores using NLP and cosine similarity.",
+      "techStack": ["Python", "NLP", "Spacy", "Scikit-learn", "PDF parsing"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/AI_BASED_RESUME_ANALYZER",
+      "liveDemo": "https://ravikiran.streamlit.app/"
+    },
+    {
+      "id": 6,
+      "title": "Disease Prediction System",
+      "description": "A machine learning system for predicting diseases based on patient symptoms and medical history. Implements multiple classification algorithms with ensemble methods and high accuracy predictions.",
+      "techStack": ["Python", "Machine Learning", "Pandas", "Scikit-learn", "NumPy", "Data Visualization"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/CodeAlpha_Tasks/tree/main/CodeAlpha_Disease%20Prediction",
+      "liveDemo": "https://github.com/ravikiranediga/CodeAlpha_Tasks/tree/main/CodeAlpha_Disease%20Prediction"
+    },
+    {
+      "id": 7,
+      "title": "LLM Writer-Critic System",
+      "description": "An advanced AI system using LangGraph framework for intelligent writer-critic workflows. Implements multi-turn refinement where an LLM generates content while another critiques and improves it, featuring stateful conversations and context-aware iterations.",
+      "techStack": ["Python", "LangGraph", "LLM", "AI Agents", "LangChain", "OpenAI", "Agentic AI"],
+      "category": "ml",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop",
+      "github": "https://github.com/ravikiranediga/llm-writer-critic-system",
+      "liveDemo": "https://github.com/ravikiranediga/llm-writer-critic-system"
+    }
+  ]
+}

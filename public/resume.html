@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E RaviKiran - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-info span {
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        
+        .entry {
+            margin-bottom: 12px;
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+        
+        .entry-title {
+            font-weight: bold;
+            font-size: 11pt;
+        }
+        
+        .entry-date {
+            font-size: 10pt;
+            font-style: italic;
+        }
+        
+        .entry-subtitle {
+            font-size: 10pt;
+            margin-bottom: 4px;
+            color: #333;
+        }
+        
+        .entry-description {
+            font-size: 10pt;
+            margin-left: 15px;
+        }
+        
+        .entry-description li {
+            margin-bottom: 2px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        
+        .skill-category {
+            font-size: 10pt;
+        }
+        
+        .skill-category strong {
+            display: block;
+            margin-bottom: 2px;
+        }
+        
+        .certification-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10pt;
+            margin-bottom: 4px;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">E RaviKiran</div>
+        <div class="contact-info">
+            <span>Email: www.sreenivasul@gmail.com</span>
+            <span>|</span>
+            <span>Phone: +91 6281495540</span>
+            <span>|</span>
+            <span>Location: Puttur, Andhra Pradesh, India</span>
+            <span>|</span>
+            <span>GitHub: github.com/ravikiranediga</span>
+            <span>|</span>
+            <span>LinkedIn: linkedin.com/in/ravikiranediga</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Objective</div>
+        <p style="font-size: 10pt;">Passionate B.Tech 3rd Year student specializing in Artificial Intelligence and Data Science seeking an internship opportunity in Data Science/AI/EDA/Machine Learning where I can apply my technical knowledge, gain industry exposure, and contribute to impactful projects.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Sri Venkatesa Perumal College of Engineering and Technology</span>
+                <span class="entry-date">2023 - 2027</span>
+            </div>
+            <div class="entry-subtitle">B.Tech, CSE(AI) | Puttur, Andhra Pradesh</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Programming:</strong>
+                Python, SQL, HTML, CSS, Java, C Programming
+            </div>
+            <div class="skill-category">
+                <strong>AI & Machine Learning:</strong>
+                Machine Learning, Data Analysis, EDA, NLP, Computer Vision, Generative AI, Agentic AI (CrewAI)
+            </div>
+            <div class="skill-category">
+                <strong>Tools & Technologies:</strong>
+                Excel, Data Analysis, Cloud Computing, N8N Automation, Big Data, Git/GitHub
+            </div>
+            <div class="skill-category">
+                <strong>Libraries & Frameworks:</strong>
+                TensorFlow, Keras, Scikit-learn, Pandas, NumPy, OpenCV, LangChain, LangGraph
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Personal Portfolio Website</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Built a modern, responsive portfolio website using React with dark/light mode</li>
+                    <li>Implemented smooth animations, typing effects, and professional glassmorphism design</li>
+                    <li>Features include project modals, contact form with validation, and full responsiveness</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">LLM Writer-Critic System</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Developed an intelligent writing assistant using Large Language Models with self-critique</li>
+                    <li>Implemented agentic workflows using LangGraph for iterative content refinement</li>
+                    <li>Features multi-turn reasoning, quality scoring, and constructive feedback generation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Credit Risk & Fraud Detection with XAI</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Built a comprehensive ML solution for credit risk assessment and fraud detection</li>
+                    <li>Implemented Explainable AI (XAI) using SHAP and LIME for model interpretability</li>
+                    <li>Used Random Forest, XGBoost, and Neural Networks with transparent decision explanations</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Handwritten Character Recognition</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Developed a deep learning system using Convolutional Neural Networks (CNN)</li>
+                    <li>Trained on standard datasets with high accuracy for character recognition</li>
+                    <li>Supports multiple character sets including alphabets and digits</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">AI Resume Analyzer</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Created an ATS-compatible resume analyzer with NLP for skill extraction</li>
+                    <li>Implemented cosine similarity for job matching and compatibility scoring</li>
+                    <li>Automated resume parsing and candidate ranking system</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Disease Prediction System</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Built ML classification system for disease prediction based on patient symptoms</li>
+                    <li>Implemented multiple classification algorithms with ensemble methods</li>
+                    <li>Achieved improved accuracy through data preprocessing and model optimization</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">LangGraph Joke Bot</span>
+                <span class="entry-date">2025</span>
+            </div>
+            <div class="entry-description">
+                <ul>
+                    <li>Created an interactive AI joke bot using LangGraph framework</li>
+                    <li>Implemented stateful conversations with memory and context awareness</li>
+                    <li>Built with AI Agents for generating contextual jokes and agent orchestration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        
+        <div class="certification-item">
+            <span>AI For All</span>
+            <span>Intel (2025)</span>
+        </div>
+        <div class="certification-item">
+            <span>AI-ML Engineer</span>
+            <span>Reliance Foundation</span>
+        </div>
+        <div class="certification-item">
+            <span>Python for Beginners</span>
+            <span>Simplilearn</span>
+        </div>
+        <div class="certification-item">
+            <span>Introduction to GenAI</span>
+            <span>Google Cloud</span>
+        </div>
+        <div class="certification-item">
+            <span>Building Data Analyst AI Agent</span>
+            <span>Analytics Vidhya (2026)</span>
+        </div>
+        <div class="certification-item">
+            <span>Data Science Job Simulation</span>
+            <span>Forage (2025)</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Key Strengths</div>
+        <ul style="font-size: 10pt; margin-left: 15px;">
+            <li>Strong analytical and problem-solving skills</li>
+            <li>Hands-on experience with ML models and data analysis</li>
+            <li>Knowledge of AI workflows and Agentic AI frameworks</li>
+            <li>Quick learner with passion for emerging technologies</li>
+            <li>Excellent communication and teamwork abilities</li>
+        </ul>
+    </div>
+</body>
+</html>
