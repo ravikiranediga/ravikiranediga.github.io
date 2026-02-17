@@ -2,6 +2,10 @@
 
 A modern, responsive, and interactive portfolio website built with React, featuring dark/light mode, smooth animations, and professional design.
 
+## 🚀 Live Demo
+
+**Live Portfolio:** https://ravikiranediga.github.io/RAVIKIRAN.github.io/
+
 ![Portfolio Preview](https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&h=600&fit=crop)
 
 ## Features
