@@ -4,7 +4,7 @@ A modern, responsive, and interactive portfolio website built with React, featur
 
 ## 🚀 Live Demo
 
-**Live Portfolio:** https://ravikiranediga.github.io/RAVIKIRAN.github.io/
+**Live Portfolio:** https://ravikiranediga.vercel.app/
 
 ![Portfolio Preview](https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200&h=600&fit=crop)
 
